@@ -1,0 +1,13 @@
+{
+  "name": "rester",
+  "outputfilename": "rester",
+  "frontend:install": "pnpm install",
+  "frontend:build": "pnpm run build --base=./",
+  "frontend:dev:watcher": "pnpm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "wailsjsdir": "./frontend/src/lib",
+  "author": {
+    "name": "8uff3r",
+    "email": "8uff3r@gmail.com"
+  }
+}
